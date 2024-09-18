@@ -19,7 +19,7 @@ project/
 ├── utils.py                # Utility functions (optional)
 ├── main.py                 # Main program to run the application
 └── requirements.txt        # List of required Python packages
-
+```
 
 ## Installation
 Clone the repository:
