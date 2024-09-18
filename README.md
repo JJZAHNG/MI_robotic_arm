@@ -48,7 +48,7 @@ python main.py
 ```
 
 ### Module Descriptions
-#####: config.py
+##### config.py
 Contains configuration parameters:
 
 ##### IP_ADDR: The IP address of the robotic arm.
