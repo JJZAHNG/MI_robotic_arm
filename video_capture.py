@@ -7,8 +7,10 @@ from config import CAMERA_INDEX
 class VideoCapture:
     def __init__(self, camera_index=CAMERA_INDEX):
         self.cap = cv2.VideoCapture(camera_index)
-        self.cap.set(3, 640)
-        self.cap.set(4, 480)
+        # self.cap.set(3, 640)
+        self.cap.set(3, 320)
+        # self.cap.set(4, 480)
+        self.cap.set(4, 240)
         self.width = int(self.cap.get(cv2.CAP_PROP_FRAME_WIDTH))
         self.height = int(self.cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
